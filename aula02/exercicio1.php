@@ -3,17 +3,30 @@
     $num2 = 50;
     $soma = $num1 + $num2;
 
-    if(soma>20){
+    if($soma>20){
 
-        $soma2 = $soma + 8;
-        echo $soma2;
+        $resultado = $soma + 8;
 
     }
     else{
 
-        $soma3 = $soma - 5;
-        echo $soma3;
+        $resultado = $soma - 5;
         
     }
 
 ?>
+
+<html>
+    <head>
+        <title>Exercício</title>
+    </head>
+
+    <body>
+
+        <?php 
+            echo "O resultado é: " .$resultado;
+        ?>
+
+    </body>
+
+</html>
