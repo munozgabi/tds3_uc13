@@ -18,7 +18,7 @@
 
     echo "<br> Com WHILE <br>";
     $contador = 100;
-    while(contador >=0){
+    while($contador >=0){
         echo $contador ."<br>";
         $contador--;
     }
